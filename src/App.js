@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
+import Profile from 'components/profile'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        Hello World, i'm Felipe!
-      </header>
-    </div>
+    // <div className="App">
+    //   <header className="App-header">
+    //   </header>
+    // </div>
+        <Profile />
   );
 }
 
